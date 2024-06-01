@@ -44,6 +44,11 @@ readystate {
 	font-size: 12px;
 	font-weight: bold;
 }
+modelname {
+	font-family: Segoe UI, Arial, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
 status {
 	font-family: Segoe UI, Arial, sans-serif;
 	font-size: 12px;
@@ -59,7 +64,25 @@ selectedmodel {
 	background-color: #ffffff;
 	color: #2F2F2F;
 }
-altmodel {
+model1 {
+	font-family: Segoe UI, Arial, sans-serif;
+	font-size: 16px;
+	padding: 9px 12px;
+	border-width: 1px;
+	border-color: #2F2F2F;
+	border-radius: 12px;
+	background-color: #2F2F2F;
+}
+model2 {
+	font-family: Segoe UI, Arial, sans-serif;
+	font-size: 16px;
+	padding: 9px 12px;
+	border-width: 1px;
+	border-color: #2F2F2F;
+	border-radius: 12px;
+	background-color: #2F2F2F;
+}
+model3 {
 	font-family: Segoe UI, Arial, sans-serif;
 	font-size: 16px;
 	padding: 9px 12px;
@@ -90,7 +113,7 @@ message {
 	font-family: Segoe UI, Arial, sans-serif;
 	font-size: 16px;
 	padding: 12px 18px;
-	width: 360px;
+	width: 420px;
   height: 1px;
 	border-radius: 40px;
 	border-width: 0px;
@@ -132,7 +155,12 @@ contentsai {
 	font-size: 12px;
 	font-weight: normal;
 }
-role {
+user {
+	font-family: Segoe UI, Arial, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+model {
 	font-family: Segoe UI, Arial, sans-serif;
 	font-size: 12px;
 	font-weight: bold;
