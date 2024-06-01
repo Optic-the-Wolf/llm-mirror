@@ -8,7 +8,7 @@ get("send").on_click(function()
 	local input = query.get_content();
 	user.set_content(input)
 	local res = fetch({
-		url = "https://bobcat-lucky-publicly.ngrok-free.app/chatgpt?input=hi",
+		url = "https://llm-mirror.loophole.site/chatgpt?input=hi",
 		method = "GET"
 		-- headers = { ["Content-Type"] = "application/json" },  -- Uncomment if needed
 		-- body = "{ \"key\": \"value\" }",  -- Uncomment and adjust if needed
