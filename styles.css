@@ -1,0 +1,139 @@
+body {
+	background-color: #212121;
+	color: #eee;
+	margin: 12px;
+	padding: 0;
+	border-radius: 12px;
+	gap: 0;
+}
+
+introduction {
+	direction: column;
+	align-items: center;
+	margin-bottom: 12px;
+}
+
+h1 {
+	font-family: Segoe UI, Arial, sans-serif;
+	font-size: 26px;
+	font-weight: 700;
+}
+
+modelpicker {
+	direction: column;
+	align-items: center;
+	gap: 0;
+	display: none;
+}
+
+preview {
+	direction: row;
+	align-items: left;
+	margin-bottom: 12px;
+	margin-top: 24px;
+	gap: 12px;
+}
+state {
+	direction: row;
+	align-items: center;
+	margin-top: 12px;
+	gap: 6px;
+}
+readystate {
+	font-family: Segoe UI, Arial, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+status {
+	font-family: Segoe UI, Arial, sans-serif;
+	font-size: 12px;
+}
+
+selectedmodel {
+	font-family: Segoe UI, Arial, sans-serif;
+	font-size: 16px;
+	padding: 9px 12px;
+	border-width: 1px;
+	border-color: #ffffff;
+	border-radius: 12px;
+	background-color: #ffffff;
+	color: #2F2F2F;
+}
+altmodel {
+	font-family: Segoe UI, Arial, sans-serif;
+	font-size: 16px;
+	padding: 9px 12px;
+	border-width: 1px;
+	border-color: #2F2F2F;
+	border-radius: 12px;
+	background-color: #2F2F2F;
+}
+disabledmodel {
+	font-family: Segoe UI, Arial, sans-serif;
+	font-size: 16px;
+	padding: 9px 12px;
+	border-width: 1px;
+	border-color: #282828;
+	border-radius: 12px;
+	background-color: #282828;
+	color: #888;
+}
+
+messagebox {
+	direction: row;
+	align-items: center;
+	margin-bottom: 0;
+	gap: 12px;
+}
+
+message {
+	font-family: Segoe UI, Arial, sans-serif;
+	font-size: 16px;
+	padding: 12px 18px;
+	width: 360px;
+  height: 1px;
+	border-radius: 40px;
+	border-width: 0px;
+	background-color: #2F2F2F;
+}
+
+send {
+	font-family: Segoe UI, Arial, sans-serif;
+	font-size: 16px;
+	padding: 12px 18px;
+  height: 1px;
+	background-color: #fff;
+	color: #000;
+	border-radius: 40px;
+	border-width: 0px;
+	font-weight: 400;
+}
+image {
+	direction: column;
+	align-items: left;
+	margin-bottom: 0;
+	gap: 0;
+}
+
+messages {
+	padding: 12px 12px;
+	direction: column;
+	align-items: left;
+	margin-bottom: 0;
+	gap: 6px;
+}
+contentsuser {
+	font-family: Segoe UI, Arial, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+}
+contentsai {
+	font-family: Segoe UI, Arial, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+}
+role {
+	font-family: Segoe UI, Arial, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
