@@ -33,6 +33,7 @@ get("send").on_click(function()
 	result.set_content("Generating...")
 	local input = query.get_content();
 	user.set_content(input)
+	input = string.gsub(input, "&", "%%26").gsub(input, "?", "%%3F").gsub(input, "=", "%%3D")
 	local res = fetch({
 		url = "https://llm-mirror.loophole.site/chatgpt?model=" .. model .. "&input=" .. input,
 		method = "GET",
