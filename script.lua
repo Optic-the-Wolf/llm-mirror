@@ -13,9 +13,11 @@ get("send").on_click(function()
             	headers = { },
             	body = ""
 	})
-	
-	if res and res.status then
-		ai.set_content(res["message"])
-		result.set_content("Done!")
-	end
+	while true do
+            if res then
+                ai.set_content(res["message"])
+                result.set_content("Done!")
+                break
+            end
+        end
 end)
