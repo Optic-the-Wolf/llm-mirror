@@ -12,8 +12,9 @@ local claudeinst = get("model4")
 local claude2 = get("model5")
 local claude3h = get("model6")
 local claude3s = get("model7")
-local llama3 = get("model8")
-local mixtral = get("model9")
+local claude3o = get("model8")
+local llama3 = get("model9")
+local mixtral = get("model10")
 
 local model = "3.5"
 
@@ -57,6 +58,12 @@ claude3s.on_click(function()
 	modelelem.set_content("Claude 3 Sonnet")
 	modelelem2.set_content("Claude 3 Sonnet")
 	model = "3s"
+end)
+
+claude3o.on_click(function()
+	modelelem.set_content("Claude 3 Opus")
+	modelelem2.set_content("Claude 3 Opus")
+	model = "3o"
 end)
 
 llama3.on_click(function()
