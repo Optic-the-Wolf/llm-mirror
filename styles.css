@@ -13,17 +13,24 @@ introduction {
 	margin-bottom: 12px;
 }
 
-h1 {
+header {
 	font-family: Segoe UI, Arial, sans-serif;
 	font-size: 26px;
 	font-weight: 700;
+	align-items: center;
+}
+
+desc {
+	font-family: Segoe UI, Arial, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	align-items: center;
 }
 
 modelpicker {
 	direction: column;
 	align-items: center;
 	gap: 0;
-	display: none;
 }
 
 preview {
